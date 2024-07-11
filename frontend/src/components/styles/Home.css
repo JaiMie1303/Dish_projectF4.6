@@ -1,0 +1,24 @@
+.header-main {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.content-main {
+    text-align: center;
+    font-size: 18px;
+}
+
+@media (max-width: 475px) {
+    .content-main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 592px) {
+    .header-main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
